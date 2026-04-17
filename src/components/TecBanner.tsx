@@ -25,12 +25,12 @@ function TecBanner() {
     ];
     
     return (
-        <div className="overflow-hidden bg-sky-950 py-4">
+        <div className="overflow-hidden bg-sky-950 py-2">
             <div className="flex w-[500%] animate-marquee">
                 <div className="flex gap-12 min-w-max w-[100%]">
                     {[...icons, ...icons, ...icons, ...icons, ...icons].map((icon, index) => (
                         <img key={index} src={icon.src} alt={icon.alt} 
-                        className="h-12 w-12 object-contain"/>
+                        className="h-6 w-6 object-contain"/>
                     ))}
                 </div>
             </div>
