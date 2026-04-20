@@ -3,7 +3,7 @@ import fotopixel from '../assets/nomeempixel.png';
 
 function HeroSection() {
     return (
-    <div className="flex flex-col justify-center items-center bg-white">
+    <div className="flex flex-col justify-center items-center bg-white -z-10 h-55">
       <h1 className="h-48 w-120 op">
         <img src={fotopixel} alt="Nome Empixel" />
       </h1>
