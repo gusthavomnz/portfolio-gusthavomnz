@@ -15,6 +15,9 @@ export default {
           '100%': { transform: 'translateX(-20%)' },
         },
       },
+      fontFamily: {
+        pixel: ['Pixelify Sans', 'sans-serif'],
+      },
     },
   },
   plugins: [],
