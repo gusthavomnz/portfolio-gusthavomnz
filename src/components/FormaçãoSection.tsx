@@ -1,4 +1,3 @@
-import logoIF from '../assets/logoIF.png';
 import CardProgramacao from './ui/CardProgramacao';
 
 function FormacaoSection() {
