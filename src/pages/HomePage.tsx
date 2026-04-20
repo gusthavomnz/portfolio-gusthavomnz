@@ -9,7 +9,10 @@ export default function HomePage() {
     <div>
       <HeroSection />
       <TecBanner />
+       <ContatoSection/>
       <FormacaoSection />
+      <ProjetosSection />
+
     </div>
     
   );

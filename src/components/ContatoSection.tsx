@@ -1,9 +1,10 @@
+import gitlink from '../assets/gitliinkpnx.png';
+
+
 function ContatoSection() {
     return (
-        <div className=" bg-sky-950">
-            <h1 className="text-2xl flex flex-col font-bold text-white items-center px-4 py-4 ">
-                Contato
-            </h1>
+        <div className="bg-black flex justify-center items-start h-16 relative overflow-hidden">
+            <img src={gitlink} alt="GitHub" className="h-24 w-auto -mt-4 " />
         </div>
     )
 }
