@@ -1,6 +1,6 @@
 import HeroSection from "../components/HeroSection";
-import FormacaoSection from "../components/FormaçãoSection";
-import ProjetosSection from "../components/ProjetosSection";
+import Stack from "../components/Stack";
+import ProjetosSection from "../components/Projetos";
 import GitBanner from "../components/GitBanner";
 import TecBanner from "../components/TecBanner";
 
@@ -10,9 +10,8 @@ export default function HomePage() {
       <HeroSection />
       <TecBanner />
        <GitBanner/>
-      <FormacaoSection />
-      <ProjetosSection />
-
+     <Stack />
+           <ProjetosSection />
     </div>
     
   );
